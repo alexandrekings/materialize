@@ -1,0 +1,124 @@
+/* Custom Stylesheet */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+nav {
+    color: #fff;
+    background-color: transparent;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.headbot {
+    background-image: url(../img/hero.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+}
+
+.angular{
+    position: absolute;
+   bottom: 56px;
+    -webkit-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    width: 100%;
+    height: 100px;
+    background-color: #fd634e;
+    opacity: .3;
+}
+.bg2{
+    position: relative;
+    width: 100%;
+  
+    background-color: #a2ca28;
+    color: white;
+}
+
+.bg3{
+    position: relative;
+    width: 100%;
+ 
+    background-color: #a2ca28;
+    color: white;
+}
+
+.backimg {
+    background-image: url(../img/yoga.jpg);
+    width: 67%;
+    max-width: 80%!important;
+    background-repeat: no-repeat;
+}
+.itsall h3 {
+    margin-bottom: -5px;
+    color: #fd634e;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.itsall  h2 {
+    color: #a2ca28;
+    font-size: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.itsall  p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #656e74;
+    line-height: 25px;
+}
+.itsall a {
+    color: #a2ca28;
+    text-decoration: underline;
+}
+.bajas {
+       position: absolute;
+    right: 45px;
+    bottom: 45px;
+    color: #fd634e;
+    display: inline-flex;
+}
+.bajas span{
+	color: white;
+}
+
+.bajas img{
+	    height: 25px;
+    width: auto!important;
+    align-self: center;
+}
+.tittles{
+	    margin-top: 17em;
+    bottom: 10em;
+}
+.tittles h2{
+	color: white;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.tittles h5{
+	color: white;
+    position: relative;
+    left: 158px;
+    margin-top: -4px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
