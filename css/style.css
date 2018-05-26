@@ -51,13 +51,63 @@ nav {
  
     background-color: #a2ca28;
     color: white;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
+.bg4{
+    position: relative;
+    width: 100%;
+  padding-top: 0px;
+    background-color:#ff4746;
+    color: white;
+    padding-bottom: 0px;
+}
 .backimg {
     background-image: url(../img/yoga.jpg);
     width: 67%;
     max-width: 80%!important;
     background-repeat: no-repeat;
+}
+.backimg2 {
+    background-image: url(../img/apple-watch.jpg);
+    width: 40%;
+    max-width: 80%!important;
+    background-repeat: no-repeat;
+}
+.backimg3 {
+    background-image: url(../img/jogging.jpg);
+    width: 30%;
+    max-width: 80%!important;
+    background-repeat: no-repeat;
+       min-height: 250px;
+    background-size: cover;
+}
+.backimg4 {
+    background-image: url(../img/beach.jpg);
+    width: 70%;
+    max-width: 80%!important;
+    background-repeat: no-repeat;
+      min-height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+.backimg6 {
+    background-image: url(../img/eating-habits.jpg);
+    width: 30%;
+    max-width: 80%!important;
+    background-repeat: no-repeat;
+       min-height: 250px;
+    background-size: cover;
+}
+.backimg5 {
+    background-image: url(../img/self-involved.jpg);
+    width: 70%;
+    max-width: 80%!important;
+    background-repeat: no-repeat;
+      min-height: 250px;
+    background-size: cover;
+    background-position: center;
 }
 .itsall h3 {
     margin-bottom: -5px;
@@ -121,4 +171,52 @@ nav {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.8px;
+}
+.nomag{
+	    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bm{
+width: 30%;
+}
+.bmm{
+width: 70%;
+background-color: #a2ca28;
+    color: white;
+}
+.bmm h2{
+	color: white!important;
+}
+.bm4{
+width: 30%;
+background-color: #a2ca28;
+    color: white;
+}
+.bm3{
+width: 70%;
+
+}
+.bm4 h2{
+	color: white!important;
+}
+.bgfut{
+	padding-top: 4em;
+	position: relative;
+    height: 500px;
+    background-image: url(../img/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page-footer {
+    padding-top: 0px;
+    color: #fff;
+    background-color: #292d42;
+    margin-top: 0px;
+}
+.bgfut h1 {
+    font-size: 4.2rem;
+    line-height: 110%;
+    margin: 0;
 }
